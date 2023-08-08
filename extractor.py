@@ -107,7 +107,7 @@ def read_root():
 @app.post("/")
 def analyse_email(email: Email):
     content = email.content
-    query = f"Please extract key information from this email: {content} "
+    query = f"Please extract key user information from this email: {content} . if you cant find the information, please specify none. "
 
     messages = [{"role": "user", "content": query}]
 
@@ -127,7 +127,7 @@ def analyse_email(email: Email):
     Phone = eval(arguments).get("Phone")
     Email = eval(arguments).get("Email")
     category = eval(arguments).get("category")
-    nextStep = eval(arguments).get("nextStep")
+    # nextStep = eval(arguments).get("nextStep")
 
     return {
         "Property_id": Property_id,
