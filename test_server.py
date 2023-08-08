@@ -10,7 +10,7 @@ Hope you are doing good
 
 # Property ID : 12334566
 # property address : address availble on request windaro Qid 147
-# Property URL : www.jhondoe.com/test/124
+# Property URL : www.realestate.com/test/124
 
 
 # User Details
